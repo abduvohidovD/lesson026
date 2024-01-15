@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    overflow: hidden;
+}
+.main{
+    width: 250px;
+    height: 250px;
+    background: dodgerblue;
+    transform: rotate(45deg);
+    margin: 150px auto;
+    position: relative;
+}
+.main__child,
+.main__child2,
+.main__child3,
+.main__child4{
+    width: 320px;
+    height: 70px;
+    background: black;
+} 
+.main__child{
+    position: absolute;
+    top: -70px;
+    left: -1px;
+    animation: main__child 3s 1s 1 forwards;
+}
+
+.main__child2{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 124px;
+    left: 124px;
+    animation: main__child2 3s 3s 1 forwards;
+}
+.main__child3{
+    position: absolute;
+    top: 249px;
+    left: -70px;
+    animation: main__child3 3s 5s 1 forwards;
+}
+.main__child4{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -195px;
+    top: 55px;
+    animation: main__child4 3s 7s 1 forwards;
+}
+@keyframes main__child {
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(70px);
+        box-shadow: 0 0 20px dodgerblue;
+    }
+}
+@keyframes main__child2 {
+    from{
+        position: absolute;
+        top: 125px;
+    }
+    to{
+        position: absolute;
+        top: 195px;
+        box-shadow: 0 0 20px dodgerblue;
+    }
+}
+@keyframes main__child3 {
+    from{
+        transform: translate(0);
+    }
+    to{
+        transform: translate(-70px);
+        box-shadow: 0 0 20px dodgerblue;
+    }
+}
+@keyframes main__child4 {
+    from{
+        position: absolute;
+        top:50px;
+    }
+    to{
+        position: absolute;
+        top: -20px;
+        box-shadow: 0 0 20px dodgerblue;
+    }
+}
+.main__child5{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: dodgerblue;
+    font-size: 3px;
+    margin: auto;
+    transform: translate(0, 100px) rotate(-45deg);
+    animation: main__child5 2.6s 9s 1 forwards;
+}
+@keyframes main__child5 {
+    from{
+        padding-top: 0;
+        padding-left: 0;
+    }
+    to{
+        transform: scale(50) rotate(-45deg);
+        background: black;
+        color: white;
+        padding-top: 24.5px;
+        padding-left: 13.2px;
+    }
+}

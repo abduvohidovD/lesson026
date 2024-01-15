@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.back__main{
+    width: 100%;
+    height: 550px;
+    background: url("./Images/background2.jpg") no-repeat center/cover;
+}
+.main{
+    width: 60%;
+    height: 80%;
+    margin: auto;
+    transform: translateY(50px);
+    display: flex;
+}
+.main__child1{
+    width: 60%;
+    height: 100%;
+    background: linear-gradient(-45deg, rgb(155, 23, 215), rgb(8, 99, 191));
+    color: #fff;
+    text-align: center;
+    padding: 20% 5%;
+}
+.main__child2{
+    width: 40%;
+    height: 100%;
+    background: white;
+    padding: 18% 0;
+    position: relative;
+}
+.main__child2 h3{
+     color: blueviolet;
+    text-align: center;
+    text-shadow: 0 0 2px blueviolet;
+}
+.input{
+    width: 230px;
+    height: 20px;
+    border: none;
+    border-radius: 40px;
+    background: #eee;
+    padding: 5%;
+    margin: 10px auto;
+    display: block;
+}
+.checkbox{
+    transform: translate(40px, -25px);
+    cursor: pointer;
+}
+.span1{
+    font-size: 10px;
+    position: absolute;
+    left: 60px;
+    top: 260px;
+    cursor: pointer;
+}
+.span2{
+    font-size: 10px;
+    position: absolute;
+    left: 185px;
+    top: 260px;
+}
+.main__child2 button{
+    width: 90px;
+    height: 30px;
+    border: none;
+    border-radius: 50px;
+    background: linear-gradient(-75deg,rgb(8, 114, 220),rgb(200, 46, 243));
+    color: #fff;
+    margin: -20px auto;
+    display: block;
+}
+.back__box{
+    width: 100%;
+    height: 550px;
+    background: url("./Images/background.jpg") no-repeat center/cover;
+}
+.box{
+    width: 300px;
+    height: 480px;
+    background: white;
+    margin: auto;
+    transform: translateY(35px);
+    box-shadow: 8px 8px 8px black;
+}
+.box__child1{
+    width: 100%;
+    height: 60%;
+    background: url("./Images/login__background.jpg") no-repeat;
+    text-align: center;
+    padding: 10% 0;
+}
+.box__child1 p{
+    color: blueviolet;
+}
+.btn{
+    width: 100px;
+    height: 30px;
+    
+}
+.box__child1 h2{
+    color: #fff;
+    margin-top: 20px;
+}
+.Username{
+    width: 200px;
+    height: 30px;
+}
+.btn,
+.Username,
+.Login{
+    border: none;
+    border-radius: 40px;
+    background: blueviolet;
+    color: #fff;
+    margin: 13px auto;
+    display: block;
+    box-shadow: 5px 5px 5px black;
+    cursor: pointer;
+}
+.Login{
+    width: 80px;
+    height: 30px;
+}
+.box__child2 p{
+    margin-top: 15px;
+    font-size: 13px;
+    text-align: center;
+    color: blueviolet;
+}
+.back__container{
+    width: 100%;
+    height: 550px;
+}
+.h1{
+    font-size: 50px;
+    text-align: center;
+}
+.container{
+    width: 65%;
+    height: 75%;
+    border-radius: 40px;
+    margin: auto;
+    box-shadow: 0 0 50px rgb(99, 173, 246);
+    display: flex;
+}
+.container__child1{
+    width: 70%;
+    height: 100%;
+    padding: 5% 0;
+}
+.hp{
+    text-align: center;
+}
+.container__child2{
+    width: 40%;
+    height: 100%;
+    border-radius: 0 40px 40px 0;
+    background: linear-gradient(1deg, rgb(103, 143, 254), rgb(82, 166, 251));
+    color: #fff;
+    text-align: center;
+    padding: 17% 3%;
+    position: relative;
+}
+.super__input{
+    width: 340px;
+    height: 35px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgb(99, 173, 246);
+    padding: 4%;
+    margin: 18px auto;
+    display: block;
+}
+.super__input::placeholder{
+    color: rgb(0, 88, 176);
+    text-shadow: 0 0 8px rgb(99, 176, 255);
+}
+.checkbox2{
+    width: 18px;
+    height: 18px;
+    transform: translate(100px);
+    cursor: pointer;
+}
+.span3{
+    left: 350px;
+}
+.span3,
+.span4{
+    font-size: 13px;
+    position: absolute;
+    text-shadow: 0 0 20px rgb(53, 154, 254);
+}
+.span4{
+    left: 540px;
+}
+.btn11111{
+    width: 140px;
+    height: 30px;
+    border: none;
+    border-radius: 40px;
+    background: linear-gradient(45deg, rgb(50, 102, 246), rgb(91, 171, 251));
+    color: #fff;
+    margin: 20px auto;
+    display: block;
+}
+.span5{
+    position: absolute;
+    left: 370px;
+    top: 1520px;
+}
+.span6{
+    color: rgb(82, 166, 251);
+    position: absolute;
+    left: 540px;
+    top: 1520px;
+}
